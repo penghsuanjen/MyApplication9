@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linerar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="150dp"
+                android:layout_height="152dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:backgroundTint="@color/colortDeepBlue"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/image_fourth" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="144dp"
+                android:layout_height="136dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:backgroundTint="@color/colortTinPurple"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/image_sceond" />
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="135dp"
+                android:layout_height="139dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:backgroundTint="@color/colortTinBlue"
+                android:scaleType="fitCenter"
+                app:srcCompat="@mipmap/image" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

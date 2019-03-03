@@ -1,0 +1,41 @@
+<resources>
+
+    <style name="AppTeme" parent="Theme.AppCompat.NoActionBar"></style>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="app_name">penghsuanJen</string>
+    <string name="frame">FrameL_user</string>
+    <string name="linear">My Application</string>
+    <string name="button">轉換資料</string>
+    <string name="button1">建築物1F_財產</string>
+    <string name="button2">建築物2F_財產</string>
+    <string name="button3">建築物3F_財產</string>
+    <string name="button4">建築物4F_財產</string>
+    <string name="button5">產出資料</string>
+    <string name="floating_button">return</string>
+
+    <string name="SVP_button0">Next</string>
+    <string name="SVP_button1">Finish</string>
+    <string name="SVP_button2">Back</string>
+    <string name="SVP_button3"></string>
+
+    <string name="slide_headings1">1樓_B104</string>
+    <string name="slide_headings2">1樓_B106</string>
+    <string name="slide_headings3">1樓_B111</string>
+    <string name="slide_headings4">1樓_B112</string>
+    <string name="slide_headings5">1樓_D106</string>
+    <string name="slide_headings6">1樓_D107</string>
+    <string name="slide_headings7">1樓_D111</string>
+
+    <string name="slide_descs1">本室</string>
+    <string name="slide_descs2">總共有</string>
+    <string name="slide_descs3">件設備</string>
+
+
+    <string name="spalsh_name">It is my dreasms</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
